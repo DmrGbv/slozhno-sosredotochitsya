@@ -60,7 +60,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
-  color: var(--bg-color);
+  color: var(--text-color);
 }
 
 /* стилизация уголков */
@@ -231,6 +231,12 @@
   gap: 10px;
 }
 
+.section_how {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .section__text {
   color: var(--main-text-color);
   font-family: var(--main-text-font, monospace);
@@ -241,7 +247,7 @@
 
 .section__subtitle {
   font-family: var(--main-text-font, monospace);
-  color: var(--bg-color);
+  color: var(--text-color);
   background-color: var(--accent-color);
   font-weight: 400;
   font-size: 18px;
